@@ -83,12 +83,10 @@ class MedicinePrescribingAgent:
             print(f"Current Performance: {self.performance}\n")
 
 
-# Run the agent
+Run the agent
 agent = MedicinePrescribingAgent()
 agent.run_agent(cycles=6)
-print("Final Performance Score:", agent.performance)
-
-`
+print("Final Performance Score:", agent.performance)`
 <h3>Output:<h3>
 <img width="631" height="580" alt="image" src="https://github.com/user-attachments/assets/9e410bc0-0bb2-48cf-a35b-cb77d8955462" />
 
